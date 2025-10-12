@@ -1,0 +1,3 @@
+/content/build/CMakeFiles/fastmatrix.dir
+/content/build/CMakeFiles/edit_cache.dir
+/content/build/CMakeFiles/rebuild_cache.dir
