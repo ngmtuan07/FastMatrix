@@ -1,7 +1,7 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 
-df = pd.read_csv('../build/data/results.csv')
+df = pd.read_csv('build/data/results.csv')
 
 # Plot add performance
 plt.figure()
