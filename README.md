@@ -4,7 +4,7 @@ A high-performance project implementing **matrix addition and multiplication** o
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 ```bash
 # Build and run benchmarks
@@ -19,7 +19,7 @@ python3 scripts/plot_results.py
 
 ---
 
-## 🛠 Requirements
+## Requirements
 
 - C++17 compiler (for CPU)
 - CUDA Toolkit (for GPU)
@@ -27,17 +27,17 @@ python3 scripts/plot_results.py
 
 ---
 
-## 📦 Features
+## Features
 
-- ✅ **Matrix Addition & Multiplication** (CPU + CUDA versions)
-- ⚡ **Performance Benchmarking** (CPU vs GPU runtime)
-- 🧠 **Easily Configurable Matrix Size**
-- 📊 **Result Logging and Plotting** (CSV + Python/Matplotlib)
-- 💻 **Runs on both Mac/Linux (CPU) and NVIDIA GPUs (CUDA)**
+- **Matrix Addition & Multiplication** (CPU + CUDA versions)
+- **Performance Benchmarking** (CPU vs GPU runtime)
+- **Easily Configurable Matrix Size**
+- **Result Logging and Plotting** (CSV + Python/Matplotlib)
+- **Runs on both Mac/Linux (CPU) and NVIDIA GPUs (CUDA)**
 
 ---
 
-## 🗂️ Repository Structure
+## Repository Structure
 
 ```
 .
@@ -59,7 +59,7 @@ python3 scripts/plot_results.py
 
 ---
 
-## ⚙️ Setup and Usage
+## Setup and Usage
 
 ### Option 1: Run on **CPU (Mac / Linux)**
 
@@ -96,7 +96,7 @@ nvcc mat_ops.cu -o mat_ops
 
 ---
 
-## 📊 Benchmarking & Plotting
+## Benchmarking & Plotting
 
 1. Run the benchmark executable (`./fastmatrix`).  
    This will generate `build/data/results.csv` with timing results for various matrix sizes.
@@ -113,7 +113,7 @@ This will generate PNG plots in the project root:
 
 ---
 
-## 📊 Performance Plots
+## Performance Plots
 
 **Matrix Addition: CPU vs GPU**
 
@@ -125,7 +125,7 @@ This will generate PNG plots in the project root:
 
 ---
 
-## 📊 Performance Comparison
+## Performance Comparison
 
 | Matrix Size (N) | CPU Add (ms) | GPU Add (FP32) (ms) | GPU Add (FP16) (ms) | CPU Mul (ms) | GPU Mul (FP32) (ms) | GPU Mul (FP16) (ms) |
 |-----------------|--------------|---------------------|---------------------|--------------|---------------------|---------------------|
@@ -136,6 +136,6 @@ This will generate PNG plots in the project root:
 
 ---
 
-## 🧾 License
+## License
 
 MIT License
